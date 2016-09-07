@@ -2,14 +2,16 @@ package list;
 
 public class Main {
 
-	private static final String	IDS_MAPPING_FILE = "C:/Users/piotr.gawron/Desktop/tmp/martyna/all/ids.txt";
-	private static final String	COG_MAPPING_FILE = "C:/Users/piotr.gawron/Desktop/tmp/martyna/all/cog_mapping.txt";
-	private static final String	COG_DATA_FILE		 = "C:/Users/piotr.gawron/Desktop/tmp/martyna/all/cog.txt";
-	private static final String	DATA_FILE				 = "C:/Users/piotr.gawron/Desktop/tmp/martyna/all/data.txt";
+	private static final String	WORK_DIRECTORY	 = "C:/Users/piotr.gawron/Desktop/tmp/martyna/all/";
 
-	private static final String	OUTPUT_FILE			 = "C:/Users/piotr.gawron/Desktop/tmp/martyna/all/out.txt";
-	Reader											reader					 = new Reader();
-	Writer											writer					 = new Writer();
+	private static final String	IDS_MAPPING_FILE = "ids.txt";
+	private static final String	COG_MAPPING_FILE = "cog_mapping.txt";
+	private static final String	COG_DATA_FILE		 = "cog.txt";
+	private static final String	DATA_FILE				 = "data.txt";
+
+	private static final String	OUTPUT_FILE			 = "out.txt";
+	private final Reader				reader					 = new Reader();
+	private final Writer				writer					 = new Writer();
 
 	public static void main(String[] args) {
 		try {
@@ -20,16 +22,17 @@ public class Main {
 	}
 
 	public void run() throws Exception {
-		DataSet dataSet = reader.readData(DATA_FILE);
+		String directory = WORK_DIRECTORY;
+		DataSet dataSet = reader.readData(directory + DATA_FILE, true);
 
-		reader.processIdMapping(dataSet, IDS_MAPPING_FILE);
+		reader.processIdMapping(dataSet, directory + IDS_MAPPING_FILE);
 
-		reader.processCogIdMapping(dataSet, COG_MAPPING_FILE, true);
-		reader.addCogData(dataSet, COG_DATA_FILE);
+		
+		int altIdLength= dataSet.getElements().get(0).getAltGaId().length();
+		reader.processCogIdMapping(dataSet, directory + COG_MAPPING_FILE, altIdLength);
+		reader.addCogData(dataSet, directory + COG_DATA_FILE);
 
-		System.out.println(dataSet.getElements().size());
-
-		writer.writeToFile(dataSet, OUTPUT_FILE);
+		writer.writeToFile(dataSet, directory + OUTPUT_FILE);
 	}
 
 }

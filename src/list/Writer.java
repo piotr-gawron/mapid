@@ -12,7 +12,14 @@ public class Writer {
 				writer.write(writeElement(data));
 			} else {
 				for (CogData cog: data.getCog()) {
-					writer.write(writeElement(data, cog.getCogId(), cog.getCogLetter()));
+					String letters = cog.getCogLetter();
+					if (letters.length()==0) {
+						writer.write(writeElement(data, cog.getCogId(), ""));
+					} else {
+						for (int i=0;i<letters.length();i++) {
+							writer.write(writeElement(data, cog.getCogId(), letters.charAt(i)+""));
+						}
+					}
 				}
 			}
 		}

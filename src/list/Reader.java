@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class Reader {
 
-	public DataSet readData(String filename) throws FileNotFoundException, IOException {
+	public DataSet readData(String filename, boolean replaceCommaWithDot) throws FileNotFoundException, IOException {
 		DataSet result = new DataSet();
 
 		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
@@ -18,6 +18,9 @@ public class Reader {
 				Data element = new Data();
 				element.setId(tmp[0]);
 				for (int i = 1; i < tmp.length; i++) {
+					if (replaceCommaWithDot) {
+						tmp[i] = tmp[i].replace(",", ".");
+					}
 					element.getOther().add(tmp[i]);
 				}
 				result.addElement(element);
@@ -39,7 +42,7 @@ public class Reader {
 		}
 	}
 
-	public void processCogIdMapping(DataSet dataSet, String filename, boolean trimAltId) throws IOException {
+	public void processCogIdMapping(DataSet dataSet, String filename, Integer altIdLengthToTrim) throws IOException {
 		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
 			String line;
 			while ((line = br.readLine()) != null) {
@@ -47,15 +50,15 @@ public class Reader {
 					String[] tmp = line.split("\t", -1);
 					String cogId = tmp[1];
 					String altId = tmp[0];
-					if (trimAltId) {
-						altId=altId.substring(0, altId.length() - 1);
+					if (altIdLengthToTrim != null) {
+						altId = altId.substring(0, altIdLengthToTrim);
 					}
 					dataSet.addCogMapping(altId, cogId);
 				}
 			}
 		}
 	}
-	
+
 	public void addCogData(DataSet dataSet, String filename) throws IOException {
 		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
 			String line;
@@ -64,7 +67,7 @@ public class Reader {
 					String[] tmp = line.split("\t", -1);
 					String cogId = tmp[0];
 					String cat = tmp[1];
-					dataSet.addCogData(cogId,cat);
+					dataSet.addCogData(cogId, cat);
 				}
 			}
 		}
