@@ -1,4 +1,4 @@
-package list;
+package list.mapid;
 
 import java.io.IOException;
 import java.io.PrintWriter;

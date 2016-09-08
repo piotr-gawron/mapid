@@ -1,4 +1,4 @@
-package list;
+package list.mapid;
 
 public class Main {
 
@@ -27,8 +27,7 @@ public class Main {
 
 		reader.processIdMapping(dataSet, directory + IDS_MAPPING_FILE);
 
-		
-		int altIdLength= dataSet.getElements().get(0).getAltGaId().length();
+		int altIdLength = dataSet.getElements().get(0).getAltGaId().length();
 		reader.processCogIdMapping(dataSet, directory + COG_MAPPING_FILE, altIdLength);
 		reader.addCogData(dataSet, directory + COG_DATA_FILE);
 
