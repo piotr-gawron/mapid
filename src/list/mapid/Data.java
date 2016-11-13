@@ -6,6 +6,8 @@ import java.util.List;
 public class Data {
 	private String				id;
 	private String				altGaId;
+	private String				phylogeny;
+	private String				family;
 	private List<CogData>	cog		= new ArrayList<>();
 	private List<String>	other	= new ArrayList<>();
 
@@ -75,6 +77,38 @@ public class Data {
 	 */
 	public void setCog(List<CogData> cog) {
 		this.cog = cog;
+	}
+
+	/**
+	 * @return the phylogeny
+	 * @see #phylogeny
+	 */
+	public String getPhylogeny() {
+		return phylogeny;
+	}
+
+	/**
+	 * @param phylogeny the phylogeny to set
+	 * @see #phylogeny
+	 */
+	public void setPhylogeny(String phylogeny) {
+		this.phylogeny = phylogeny;
+	}
+
+	/**
+	 * @return the family
+	 * @see #family
+	 */
+	public String getFamily() {
+		return family;
+	}
+
+	/**
+	 * @param family the family to set
+	 * @see #family
+	 */
+	public void setFamily(String family) {
+		this.family = family;
 	}
 
 }

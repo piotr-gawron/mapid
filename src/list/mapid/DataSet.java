@@ -8,10 +8,12 @@ import java.util.Map;
 import java.util.Set;
 
 public class DataSet {
-	private List<Data>						 elements				 = new ArrayList<>();
-	private Map<String, Data>			 elementById		 = new HashMap<>();
-	private Map<String, Data>			 elementByAltId	 = new HashMap<>();
-	private Map<String, Set<Data>> elementsByCogId = new HashMap<>();
+	private PhylogenyComparator		 phylogenyComparator = new PhylogenyComparator();
+
+	private List<Data>						 elements						 = new ArrayList<>();
+	private Map<String, Data>			 elementById				 = new HashMap<>();
+	private Map<String, Data>			 elementByAltId			 = new HashMap<>();
+	private Map<String, Set<Data>> elementsByCogId		 = new HashMap<>();
 
 	public void addElement(Data element) {
 		if (element.getId() == null) {
@@ -97,6 +99,35 @@ public class DataSet {
 		for (Set<Data> set : elementsByCogId.values()) {
 			set.remove(data);
 		}
+	}
+
+	public void addPhylogeny(String altGaId, String phylogeny) {
+		Data el = elementByAltId.get(altGaId);
+		if (el == null) {
+			throw new InvalidArgumentException("Cannot find element by id: " + altGaId);
+		}
+		if (el.getPhylogeny() != null && !el.getPhylogeny().equals(phylogeny)) {
+			System.out.println("Different phylogeny found for: " + altGaId + ":  " + el.getPhylogeny() + ", " + phylogeny);
+			if (phylogenyComparator.compare(phylogeny, el.getPhylogeny()) > 0) {
+				el.setPhylogeny(phylogeny);
+			}
+		} else {
+			el.setPhylogeny(phylogeny);
+		}
+
+	}
+
+	public void addFamily(String id, String family) {
+		Data el = elementById.get(id);
+		if (el == null) {
+			throw new InvalidArgumentException("Cannot find element by id: " + id);
+		}
+		if (el.getFamily() != null && !el.getFamily().equals(family)) {
+			throw new InvalidArgumentException("Two different families found for id: " + id + "; " + el.getFamily() + ", " + family);
+		} else {
+			el.setFamily(family);
+		}
+
 	}
 
 }
