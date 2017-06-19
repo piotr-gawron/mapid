@@ -5,17 +5,19 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
-
-import list.mapid.InvalidArgumentException;
+import java.util.Set;
 
 public class Main {
 
 	private static final String		TAXONOMY_FILE		 = "taxonomy.txt";
 	private static final String		IDS_MAPPING_FILE = "ids.txt";
 
-	private static final String		WORK_DIRECTORY	 = "C:/Users/piotr.gawron/Desktop/tmp/martyna/all/";
-	private static final String[]	FILES_TO_ANALYZE = new String[] { "out.txt", "data_contigs.txt", "data_dbcan.txt" };
+	// private static final String WORK_DIRECTORY =
+	// "C:/Users/piotr.gawron/Desktop/tmp/martyna/2017-06-01/deplecja/";
+	private static final String		WORK_DIRECTORY	 = "C:/Users/piotr.gawron/Desktop/tmp/martyna/2017-06-01/dissectionWGLF/";
+	private static final String[]	FILES_TO_ANALYZE = new String[] { "input.txt" };
 
 	public static void main(String[] args) {
 		try {
@@ -26,14 +28,14 @@ public class Main {
 	}
 
 	public void run() throws Exception {
-		Map<String, String> gaIdToTaxonomy = getGaIdTaxonomyMapping(WORK_DIRECTORY + TAXONOMY_FILE, 17);
+		Map<String, Set<String>> gaIdToTaxonomy = getGaIdTaxonomyMapping(WORK_DIRECTORY + TAXONOMY_FILE, 17, true);
 		Map<String, String> idMapping = gaIdsToIds(WORK_DIRECTORY + IDS_MAPPING_FILE);
 		for (String inputFile : FILES_TO_ANALYZE) {
 			merge(gaIdToTaxonomy, idMapping, WORK_DIRECTORY + inputFile, WORK_DIRECTORY + inputFile + ".taxonomy.txt");
 		}
 	}
 
-	private void merge(Map<String, String> gaIdToTaxonomy, Map<String, String> idMapping, String filename, String outputFilename) throws IOException {
+	private void merge(Map<String, Set<String>> gaIdToTaxonomy, Map<String, String> idMapping, String filename, String outputFilename) throws IOException {
 		PrintWriter writer = new PrintWriter(outputFilename, "UTF-8");
 
 		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
@@ -41,12 +43,18 @@ public class Main {
 			while ((line = br.readLine()) != null) {
 				if (!line.trim().isEmpty()) {
 					String[] tmp = line.split("\t", -1);
-					String taxonomy = null;
+					Set<String> taxonomy = null;
 					String id = idMapping.get(tmp[0]);
 					if (id != null) {
 						taxonomy = gaIdToTaxonomy.get(id);
 					}
-					writer.write(line + "\t" + taxonomy + "\n");
+					if (taxonomy == null) {
+						taxonomy = new HashSet<>();
+						taxonomy.add(null);
+					}
+					for (String taxonomyEntry : taxonomy) {
+						writer.write(line + "\t" + taxonomyEntry + "\n");
+					}
 				}
 			}
 		}
@@ -69,9 +77,9 @@ public class Main {
 		return mapping;
 	}
 
-	private Map<String, String> getGaIdTaxonomyMapping(String filename, Integer altIdLengthToTrim) throws IOException {
-		Map<String, String> mapping = new HashMap<>();
-		int i=0;
+	private Map<String, Set<String>> getGaIdTaxonomyMapping(String filename, Integer altIdLengthToTrim, boolean full) throws IOException {
+		Map<String, Set<String>> mapping = new HashMap<>();
+		int i = 0;
 		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
 			String line;
 			while ((line = br.readLine()) != null) {
@@ -81,15 +89,24 @@ public class Main {
 					if (altIdLengthToTrim != null) {
 						altId = altId.substring(0, altIdLengthToTrim);
 					}
-					String taxonomy = tmp[4].split(";", -1)[0].replace("\"", "");
-					if (mapping.get(altId) != null) {
-						if (!mapping.get(altId).equalsIgnoreCase(taxonomy)) {
-//							throw new InvalidArgumentException("Inconsistent taxonomy for id: " + altId + ". Taxonomy found: " + taxonomy + ", " + mapping.get(altId));
-							System.out.println("Inconsistent taxonomy for id: " + altId + ". Taxonomy found: " + taxonomy + ", " + mapping.get(altId)+"; "+(i++));
+					String taxonomy;
+					taxonomy = tmp[4].split(";", -1)[0].replace("\"", "");
+					if (taxonomy.equals("Eukaryota")) {
+						if (full) {
+							taxonomy = tmp[4];
+						} else {
+
+							String other = tmp[4].split(";", -1)[2].replace("\"", "");
+							if (!other.equals("Insecta")) {
+								other = "other";
+							}
+							taxonomy += "_" + other;
 						}
-					} else {
-						mapping.put(altId, taxonomy);
 					}
+					if (mapping.get(altId) == null) {
+						mapping.put(altId, new HashSet<>());
+					}
+					mapping.get(altId).add(taxonomy);
 				}
 			}
 		}
