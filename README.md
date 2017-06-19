@@ -27,17 +27,18 @@ Total time: 2 seconds
 Type in the console:
 
 ```
-java -cp build/jar/mapid.jar list.fastq.FastqNameChange inputDirectory outputDirectory partsForId
+java -cp build/jar/mapid.jar list.fastq.FastqNameChange inputDirectory outputDirectory partsForId prefix
 ```
 
 * `inputDirectory` - directory with raw fastq files where ids should be changed
 * `outputDirectory` - directory where output fastq files should be put *MUST be different then `inputDirectory`*
 * `partsForId` - numeric value defining how many parts of the filename (separated by "_") should be used as part of the id
+* `prefix` - optional prefix for fastq sequence name
 
 Example:
  
 ```
-java -cp build/jar/mapid.jar list.fastq.FastqNameChange testFiles out 6
+java -cp build/jar/mapid.jar list.fastq.FastqNameChange testFiles out 6 .;barcodelabel=
 ```
 
  
