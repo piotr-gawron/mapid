@@ -38,7 +38,7 @@ java -cp build/jar/mapid.jar list.fastq.FastqNameChange inputDirectory outputDir
 Example:
  
 ```
-java -cp build/jar/mapid.jar list.fastq.FastqNameChange testFiles out 6 .;barcodelabel=
+java -cp build/jar/mapid.jar list.fastq.FastqNameChange testFiles out 6 ".;barcodelabel="
 ```
 
  
