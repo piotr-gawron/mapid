@@ -21,6 +21,10 @@ public class FastqNameChange {
 			System.out.println("Usage: program inputDirectory outputDirectory partsForId");
 			return;
 		}
+		String prefix = "";
+		if (args.length >= 4) {
+			prefix = args[3];
+		}
 		File input = new File(args[0]);
 		String outputDir = args[1];
 		new File(outputDir).mkdirs();
@@ -29,15 +33,18 @@ public class FastqNameChange {
 			String filename = fileEntry.getName();
 			if (filename.endsWith("fastq")) {
 				System.out.println("Processing file: " + filename);
-				processFile(fileEntry, outputDir, partsForId);
+				processFile(fileEntry, outputDir, partsForId, prefix);
 			} else {
 				System.out.println("Skipping file: " + filename);
 			}
 		}
 	}
 
-	private void processFile(File fileEntry, String outputDir, int partsForId) throws IOException {
-		String id = getId(fileEntry.getName(), partsForId);
+	private void processFile(File fileEntry, String outputDir, int partsForId, String prefix) throws IOException {
+		if (prefix == null) {
+			prefix = "";
+		}
+		String id = prefix + getId(fileEntry.getName(), partsForId);
 		BufferedReader br = new BufferedReader(new FileReader(fileEntry));
 		PrintWriter writer = new PrintWriter(outputDir + "/" + fileEntry.getName(), "UTF-8");
 		try {
@@ -59,7 +66,6 @@ public class FastqNameChange {
 			br.close();
 			writer.close();
 		}
-
 	}
 
 	private String getId(String name, int partsForId) {
