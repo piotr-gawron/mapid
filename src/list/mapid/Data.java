@@ -4,111 +4,55 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Data {
-	private String				id;
-	private String				altGaId;
-	private String				phylogeny;
-	private String				family;
-	private List<CogData>	cog		= new ArrayList<>();
-	private List<String>	other	= new ArrayList<>();
+  private String id;
+  private List<String> other = new ArrayList<>();
 
-	/**
-	 * @return the id
-	 * @see #id
-	 */
-	public String getId() {
-		return id;
-	}
+  public Data() {
 
-	/**
-	 * @param id
-	 *          the id to set
-	 * @see #id
-	 */
-	public void setId(String id) {
-		this.id = id;
-	}
+  }
 
-	/**
-	 * @return the altGaId
-	 * @see #altGaId
-	 */
-	public String getAltGaId() {
-		return altGaId;
-	}
+  public Data(Data data) {
+    setId(data.getId());
+    for (String s : data.getOther()) {
+      addCell(s);
+    }
+  }
 
-	/**
-	 * @param altGaId
-	 *          the altGaId to set
-	 * @see #altGaId
-	 */
-	public void setAltGaId(String altGaId) {
-		this.altGaId = altGaId;
-	}
+  public void addCell(String s) {
+    other.add(s);
+  }
 
-	/**
-	 * @return the other
-	 * @see #other
-	 */
-	public List<String> getOther() {
-		return other;
-	}
+  /**
+   * @return the id
+   * @see #id
+   */
+  public String getId() {
+    return id;
+  }
 
-	/**
-	 * @param other
-	 *          the other to set
-	 * @see #other
-	 */
-	public void setOther(List<String> other) {
-		this.other = other;
-	}
+  /**
+   * @param id the id to set
+   * @see #id
+   */
+  public void setId(String id) {
+    this.id = id;
+  }
 
-	/**
-	 * @return the cog
-	 * @see #cog
-	 */
-	public List<CogData> getCog() {
-		return cog;
-	}
+  /**
+   * /**
+   *
+   * @return the other
+   * @see #other
+   */
+  public List<String> getOther() {
+    return other;
+  }
 
-	/**
-	 * @param cog
-	 *          the cog to set
-	 * @see #cog
-	 */
-	public void setCog(List<CogData> cog) {
-		this.cog = cog;
-	}
-
-	/**
-	 * @return the phylogeny
-	 * @see #phylogeny
-	 */
-	public String getPhylogeny() {
-		return phylogeny;
-	}
-
-	/**
-	 * @param phylogeny the phylogeny to set
-	 * @see #phylogeny
-	 */
-	public void setPhylogeny(String phylogeny) {
-		this.phylogeny = phylogeny;
-	}
-
-	/**
-	 * @return the family
-	 * @see #family
-	 */
-	public String getFamily() {
-		return family;
-	}
-
-	/**
-	 * @param family the family to set
-	 * @see #family
-	 */
-	public void setFamily(String family) {
-		this.family = family;
-	}
-
+  /**
+   * @param other the other to set
+   * @see #other
+   */
+  public void setOther(List<String> other) {
+    this.other = other;
+  }
 }

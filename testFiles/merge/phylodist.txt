@@ -1,0 +1,100 @@
+Ga0213501_10000041	2617477362	2617270769	52.24	Bacteria;Firmicutes;Bacilli;Bacillales;Bacillaceae;Amphibacillus;Amphibacillus marinus;Amphibacillus marinus CGMCC 1.10434
+Ga0213501_10000051	649183211	649077301	56.18	Eukaryota;Arthropoda;Insecta;Hemiptera;Aphididae;Acyrthosiphon;Acyrthosiphon pisum;Acyrthosiphon pisum LSR1
+Ga0213501_10000052	2508074219	2507525021	67.44	Eukaryota;Arthropoda;Branchiopoda;Diplostraca;Daphniidae;Daphnia;Daphnia pulex;Daphnia pulex Log50
+Ga0213501_10000062	2578841955	2576861570	62.5	Bacteria;Firmicutes;unclassified Firmicutes;unclassified Firmicutes;unclassified Firmicutes;unclassified Firmicutes;Firmicutes bacterium ASF500;Firmicutes bacterium ASF500
+Ga0213501_10000071	2559417208	2558860277	53.39	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema primitia;Treponema primitia ZAS-1
+Ga0213501_10000081	2648898198	2648501189	44.05	Bacteria;Proteobacteria;Deltaproteobacteria;Desulfobacterales;Desulfobacteraceae;Candidatus Magnetomorum;Candidatus Magnetomorum sp. HK-1;Candidatus Magnetomorum sp. HK-1
+Ga0213501_10000101	642642858	642555142	70.67	Bacteria;Firmicutes;Clostridia;Natranaerobiales;Natranaerobiaceae;Natranaerobius;Natranaerobius thermophilus;Natranaerobius thermophilus JW/NM-WN-LF
+Ga0213501_10000121	650883542	650716102	77.38	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema primitia;Treponema primitia ZAS-2
+Ga0213501_10000141	2684533429	2681813554	59.46	Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Filimonas;Filimonas lacunae;Filimonas lacunae DSM 21054
+Ga0213501_10000151	649099933	649077317	77.91	Eukaryota;Arthropoda;Insecta;Coleoptera;Tenebrionidae;Tribolium;Tribolium castaneum;Tribolium castaneum Georgia GA2
+Ga0213501_10000161	2596320828	2595698227	64.62	Bacteria;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Butyrivibrio;Butyrivibrio hungatei;Butyrivibrio hungatei XBD2006
+Ga0213501_10000181	648110803	648028052	68.05	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Sediminispirochaeta;Sediminispirochaeta smaragdinae;Sediminispirochaeta smaragdinae DSM 11293
+Ga0213501_10000191	650883542	650716102	70.09	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema primitia;Treponema primitia ZAS-2
+Ga0213501_10000211	2743906399	2740892545	38.95	Bacteria;Fibrobacteres;Fibrobacteria;unclassified Fibrobacteria;unclassified Fibrobacteria;unclassified Fibrobacteria;Fibrobacteria bacterium GUT31;Fibrobacteria bacterium GUT31 IN01_31
+Ga0213501_10000212	2743906399	2740892545	46.83	Bacteria;Fibrobacteres;Fibrobacteria;unclassified Fibrobacteria;unclassified Fibrobacteria;unclassified Fibrobacteria;Fibrobacteria bacterium GUT31;Fibrobacteria bacterium GUT31 IN01_31
+Ga0213501_10000221	2743906399	2740892545	44.64	Bacteria;Fibrobacteres;Fibrobacteria;unclassified Fibrobacteria;unclassified Fibrobacteria;unclassified Fibrobacteria;Fibrobacteria bacterium GUT31;Fibrobacteria bacterium GUT31 IN01_31
+Ga0213501_10000241	2581167237	2579778832	35.64	Bacteria;Firmicutes;Bacilli;Bacillales;Paenibacillaceae;Paenibacillus;Paenibacillus sophorae;Paenibacillus sophorae S27
+Ga0213501_10000251	2509785609	2509601028	59.59	"Bacteria;Acidobacteria;Holophagae;Holophagales;Holophagaceae;Holophaga;Holophaga foetida;Holophaga foetida TMBS4, DSM 6591"
+Ga0213501_10000261	650878167	650716099	75.73	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema azotonutricium;Treponema azotonutricium ZAS-9
+Ga0213501_10000281	650878167	650716099	75.51	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema azotonutricium;Treponema azotonutricium ZAS-9
+Ga0213501_10000291	649671009	649633033	71.59	Bacteria;Firmicutes;Clostridia;Clostridiales;Peptostreptococcaceae;Acetoanaerobium;Acetoanaerobium sticklandii;Acetoanaerobium sticklandii DSM 519
+Ga0213501_10000321	649189927	649077301	50.58	Eukaryota;Arthropoda;Insecta;Hemiptera;Aphididae;Acyrthosiphon;Acyrthosiphon pisum;Acyrthosiphon pisum LSR1
+Ga0213501_10000361	649107734	649077317	34.35	Eukaryota;Arthropoda;Insecta;Coleoptera;Tenebrionidae;Tribolium;Tribolium castaneum;Tribolium castaneum Georgia GA2
+Ga0213501_10000371	2512490899	2512047078	43.48	Bacteria;Proteobacteria;Gammaproteobacteria;Vibrionales;Vibrionaceae;Vibrio;Vibrio nigripulchritudo;Vibrio nigripulchritudo ATCC 27043
+Ga0213501_10000381	2705915746	2703719210	50.41	Bacteria;Firmicutes;Clostridia;Thermoanaerobacterales;Thermoanaerobacteraceae;Moorella;Moorella thermoacetica;Moorella thermoacetica DSM 12797 (MOTH)
+Ga0213501_10000391	2535648448	2534681837	45	Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;Bacteroides oleiciplenus;Bacteroides oleiciplenus YIT 12058
+Ga0213501_10000401	2658354377	2657245174	54.7	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Spirochaeta;unclassified Spirochaeta;Spirochaeta sp. EBM-43
+Ga0213501_10000421	2619589898	2617271335	71.72	Bacteria;Firmicutes;Bacilli;Bacillales;Paenibacillaceae;Paenibacillus;Paenibacillus wynnii;Paenibacillus wynnii DSM 18334
+Ga0213501_10000431	2619589898	2617271335	75.44	Bacteria;Firmicutes;Bacilli;Bacillales;Paenibacillaceae;Paenibacillus;Paenibacillus wynnii;Paenibacillus wynnii DSM 18334
+Ga0213501_10000441	651184383	651053001	68.83	Bacteria;Firmicutes;Bacilli;Bacillales;Bacillaceae;Bacillus;Bacillus amyloliquefaciens;Bacillus amyloliquefaciens LL3
+Ga0213501_10000461	646719267	646564503	64.29	"Bacteria;Synergistetes;Synergistia;Synergistales;Synergistaceae;Aminobacterium;Aminobacterium colombiense;Aminobacterium colombiense ALA-1, DSM 12261"
+Ga0213501_10000462	646719266	646564503	85.45	"Bacteria;Synergistetes;Synergistia;Synergistales;Synergistaceae;Aminobacterium;Aminobacterium colombiense;Aminobacterium colombiense ALA-1, DSM 12261"
+Ga0213501_10000471	649100645	649077317	63.41	Eukaryota;Arthropoda;Insecta;Coleoptera;Tenebrionidae;Tribolium;Tribolium castaneum;Tribolium castaneum Georgia GA2
+Ga0213501_10000481	2559414356	2558860277	64.86	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema primitia;Treponema primitia ZAS-1
+Ga0213501_10000491	650879700	650716099	74.42	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema azotonutricium;Treponema azotonutricium ZAS-9
+Ga0213501_10000492	2559415255	2558860277	79.22	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema primitia;Treponema primitia ZAS-1
+Ga0213501_10000511	2536644970	2534682116	53.66	Bacteria;Firmicutes;Bacilli;Bacillales;Bacillaceae;Bacillus;Bacillus subtilis;Bacillus subtilis inaquosorum KCTC 13429
+Ga0213501_10000521	2645796747	2645727515	53.19	Bacteria;Firmicutes;Bacilli;Bacillales;Paenibacillaceae;Paenibacillus;Paenibacillus sp. FSL H7-0737;Paenibacillus sp. FSL H7-0737
+Ga0213501_10000531	2524776349	2524614531	42.37	Bacteria;Firmicutes;Clostridia;Clostridiales;Clostridiales Family XIII. Incertae Sedis;Anaerovorax;Anaerovorax odorimutans;Anaerovorax odorimutans DSM 5092
+Ga0213501_10000591	650880749	650716102	45.6	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema primitia;Treponema primitia ZAS-2
+Ga0213501_10000592	2637580858	2636415688	80.65	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Bradyrhizobiaceae;Afipia;Afipia massiliensis;Afipia massiliensis LC387
+Ga0213501_10000601	644155299	643886199	50.48	Bacteria;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Blautia;Blautia hydrogenotrophica;Blautia hydrogenotrophica DSM 10507
+Ga0213501_10000621	2701114568	2700988679	72.41	Bacteria;Fibrobacteres;Fibrobacteria;Fibrobacterales;Fibrobacteraceae;Fibrobacter;Fibrobacter sp. UWH6;Fibrobacter sp. UWH6
+Ga0213501_10000631	2651257206	2648501785	63.3	Bacteria;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Sellimonas;Sellimonas intestinalis;Sellimonas intestinalis BR72
+Ga0213501_10000641	2508077019	2507525021	74.13	Eukaryota;Arthropoda;Branchiopoda;Diplostraca;Daphniidae;Daphnia;Daphnia pulex;Daphnia pulex Log50
+Ga0213501_10000651	649148635	649077315	21.75	Eukaryota;Arthropoda;Insecta;Hymenoptera;Pteromalidae;Nasonia;Nasonia vitripennis;Nasonia vitripennis SymAX
+Ga0213501_10000661	2600995141	2600255113	34.1	Bacteria;Cyanobacteria;unclassified Cyanobacteria;Synechococcales;Prochloraceae;Prochloron;Prochloron didemni;Prochloron didemni P4-Papua_New_Guinea
+Ga0213501_10000681	649111675	649077303	69.31	Eukaryota;Arthropoda;Insecta;Hymenoptera;Apidae;Apis;Apis mellifera;Apis mellifera DH4
+Ga0213501_10000701	649150001	649077315	77.67	Eukaryota;Arthropoda;Insecta;Hymenoptera;Pteromalidae;Nasonia;Nasonia vitripennis;Nasonia vitripennis SymAX
+Ga0213501_10000721	650877641	650716099	72.73	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema azotonutricium;Treponema azotonutricium ZAS-9
+Ga0213501_10000722	650877642	650716099	52.14	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema azotonutricium;Treponema azotonutricium ZAS-9
+Ga0213501_10000731	650883723	650716102	89.29	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema primitia;Treponema primitia ZAS-2
+Ga0213501_10000732	650878232	650716099	85.71	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema azotonutricium;Treponema azotonutricium ZAS-9
+Ga0213501_10000741	2559415016	2558860277	76.27	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema primitia;Treponema primitia ZAS-1
+Ga0213501_10000761	2559416222	2558860277	79.61	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema primitia;Treponema primitia ZAS-1
+Ga0213501_10000762	650879293	650716099	37.3	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema azotonutricium;Treponema azotonutricium ZAS-9
+Ga0213501_10000763	650879294	650716099	85.35	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema azotonutricium;Treponema azotonutricium ZAS-9
+Ga0213501_10000764	650879295	650716099	71.88	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema azotonutricium;Treponema azotonutricium ZAS-9
+Ga0213501_10000771	2503534023	2503508009	45.95	"Bacteria;Firmicutes;Clostridia;Thermoanaerobacterales;Thermoanaerobacterales Family IV. Incertae Sedis;Mahella;Mahella australiensis;Mahella australiensis 50-1 BON, DSM 15567"
+Ga0213501_10000801	2519482675	2519103102	47.37	"Bacteria;Firmicutes;Clostridia;Thermoanaerobacterales;Thermoanaerobacterales Family III. Incertae Sedis;Thermoanaerobacterium;Thermoanaerobacterium saccharolyticum;Thermoanaerobacterium saccharolyticum JW/SL-YS485, DSM 8691"
+Ga0213501_10000831	649118519	649077303	62.07	Eukaryota;Arthropoda;Insecta;Hymenoptera;Apidae;Apis;Apis mellifera;Apis mellifera DH4
+Ga0213501_10000841	2585349351	2582581319	47.04	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema berlinense;Treponema berlinense ATCC BAA-909
+Ga0213501_10000851	649755126	649633024	50.63	Bacteria;Firmicutes;Clostridia;Thermoanaerobacterales;Thermoanaerobacterales Family III. Incertae Sedis;Caldicellulosiruptor;Caldicellulosiruptor kronotskyensis;Caldicellulosiruptor kronotskyensis 2002
+Ga0213501_10000871	2619589898	2617271335	80.25	Bacteria;Firmicutes;Bacilli;Bacillales;Paenibacillaceae;Paenibacillus;Paenibacillus wynnii;Paenibacillus wynnii DSM 18334
+Ga0213501_10000881	2619589898	2617271335	66.78	Bacteria;Firmicutes;Bacilli;Bacillales;Paenibacillaceae;Paenibacillus;Paenibacillus wynnii;Paenibacillus wynnii DSM 18334
+Ga0213501_10000891	2619589898	2617271335	74.76	Bacteria;Firmicutes;Bacilli;Bacillales;Paenibacillaceae;Paenibacillus;Paenibacillus wynnii;Paenibacillus wynnii DSM 18334
+Ga0213501_10000901	2619589898	2617271335	76.15	Bacteria;Firmicutes;Bacilli;Bacillales;Paenibacillaceae;Paenibacillus;Paenibacillus wynnii;Paenibacillus wynnii DSM 18334
+Ga0213501_10000931	650883416	650716102	50	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema primitia;Treponema primitia ZAS-2
+Ga0213501_10000941	2743911893	2740892546	59.04	Bacteria;Fibrobacteres;Fibrobacteria;unclassified Fibrobacteria;unclassified Fibrobacteria;unclassified Fibrobacteria;Fibrobacteria bacterium GUT307;Fibrobacteria bacterium GUT307 IN01_307
+Ga0213501_10000951	2559415444	2558860277	62.69	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema primitia;Treponema primitia ZAS-1
+Ga0213501_10000961	2743911896	2740892546	59.26	Bacteria;Fibrobacteres;Fibrobacteria;unclassified Fibrobacteria;unclassified Fibrobacteria;unclassified Fibrobacteria;Fibrobacteria bacterium GUT307;Fibrobacteria bacterium GUT307 IN01_307
+Ga0213501_10000971	2559415352	2558860277	65.71	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema primitia;Treponema primitia ZAS-1
+Ga0213501_10000981	2635325649	2634166351	50	Bacteria;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Anaerocolumna;Anaerocolumna aminovalerica;Anaerocolumna aminovalerica DSM 1283
+Ga0213501_10000991	2656193252	2654587900	38.26	Bacteria;Firmicutes;Bacilli;Bacillales;Bacillaceae;Halobacillus;Halobacillus alkaliphilus;Halobacillus alkaliphilus FP5
+Ga0213501_10001001	2656281516	2654587921	76.19	Bacteria;Firmicutes;Negativicutes;Selenomonadales;Sporomusaceae;Sporomusa;Sporomusa sphaeroides;Sporomusa sphaeroides E (DSM2875)
+Ga0213501_10001002	2599707811	2599185233	71.05	Bacteria;Firmicutes;Negativicutes;Selenomonadales;Sporomusaceae;Sporolituus;Sporolituus thermophilus;Sporolituus thermophilus DSM 23256
+Ga0213501_10001011	651578697	651324002	69.86	"Bacteria;Firmicutes;Negativicutes;Selenomonadales;Sporomusaceae;Acetonema;Acetonema longum;Acetonema longum APO-1, DSM 6540"
+Ga0213501_10001021	2599707811	2599185233	75	Bacteria;Firmicutes;Negativicutes;Selenomonadales;Sporomusaceae;Sporolituus;Sporolituus thermophilus;Sporolituus thermophilus DSM 23256
+Ga0213501_10001031	2599707811	2599185233	67.57	Bacteria;Firmicutes;Negativicutes;Selenomonadales;Sporomusaceae;Sporolituus;Sporolituus thermophilus;Sporolituus thermophilus DSM 23256
+Ga0213501_10001041	2615277801	2614208521	47.06	Eukaryota;Streptophyta;unclassified Streptophyta;Malpighiales;Salicaceae;Populus;Populus trichocarpa;Populus trichocarpa Nisqually-1
+Ga0213501_10001051	649170418	649077304	58.02	Eukaryota;Arthropoda;Insecta;Diptera;Culicidae;Culex;Culex quinquefasciatus;Culex pipiens quinquefasciatus JHB
+Ga0213501_10001052	2508338866	2507525030	67.16	Eukaryota;Arthropoda;Arachnida;Ixodida;Ixodidae;Ixodes;Ixodes scapularis;Ixodes scapularis Wikel
+Ga0213501_10001061	2587834771	2585428085	56.67	Bacteria;Firmicutes;Clostridia;Clostridiales;Ruminococcaceae;Sporobacter;Sporobacter termitidis;Sporobacter termitidis DSM 10068
+Ga0213501_10001101	649319377	649077316	43.8	Eukaryota;Arthropoda;Insecta;Phthiraptera;Pediculidae;Pediculus;Pediculus humanus;Pediculus humanus corporis USDA
+Ga0213501_10001102	2507959068	2507525015	29.39	Eukaryota;Chordata;Amphibia;Anura;Pipidae;Xenopus;Xenopus tropicalis;Xenopus tropicalis
+Ga0213501_10001122	2743913757	2740892547	88.89	Bacteria;Fibrobacteres;Fibrobacteria;unclassified Fibrobacteria;unclassified Fibrobacteria;unclassified Fibrobacteria;Fibrobacteria bacterium GUT77;Fibrobacteria bacterium GUT77 MC_77
+Ga0213501_10001131	2743913757	2740892547	80.19	Bacteria;Fibrobacteres;Fibrobacteria;unclassified Fibrobacteria;unclassified Fibrobacteria;unclassified Fibrobacteria;Fibrobacteria bacterium GUT77;Fibrobacteria bacterium GUT77 MC_77
+Ga0213501_10001141	2621280287	2619619295	37.11	Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Tannerellaceae;Parabacteroides;Parabacteroides sp. HGS0025;Parabacteroides sp. HGS0025
+Ga0213501_10001151	649105642	649077317	52.6	Eukaryota;Arthropoda;Insecta;Coleoptera;Tenebrionidae;Tribolium;Tribolium castaneum;Tribolium castaneum Georgia GA2
+Ga0213501_10001161	2512763744	2512564048	82.61	Bacteria;Proteobacteria;Alphaproteobacteria;Rickettsiales;Rickettsiaceae;Rickettsia;Rickettsia rickettsii;Rickettsia rickettsii Hino
+Ga0213501_10001163	2586253518	2585427698	65.22	Bacteria;Proteobacteria;Alphaproteobacteria;Rickettsiales;Rickettsiaceae;Occidentia;Occidentia massiliensis;Occidentia massiliensis OS118
+Ga0213501_10001201	2505692896	2505679006	52.43	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema caldarium;Treponema caldarium DSM 7334
+Ga0213501_10001211	2505692896	2505679006	54.55	Bacteria;Spirochaetes;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;Treponema caldarium;Treponema caldarium DSM 7334
+Ga0213501_10001221	649100752	649077317	61.42	Eukaryota;Arthropoda;Insecta;Coleoptera;Tenebrionidae;Tribolium;Tribolium castaneum;Tribolium castaneum Georgia GA2
+Ga0213501_10001231	649320829	649077316	77.5	Eukaryota;Arthropoda;Insecta;Phthiraptera;Pediculidae;Pediculus;Pediculus humanus;Pediculus humanus corporis USDA
+Ga0213501_10001241	648669306	648276759	63.79	Bacteria;Proteobacteria;Deltaproteobacteria;unclassified Deltaproteobacteria;unclassified Deltaproteobacteria;unclassified Deltaproteobacteria;delta proteobacterium NaphS2;delta proteobacterium NaphS2
+Ga0213501_10001251	2501566985	2501533205	51.61	"Bacteria;Synergistetes;Synergistia;Synergistales;Synergistaceae;Dethiosulfovibrio;Dethiosulfovibrio peptidovorans;Dethiosulfovibrio peptidovorans SEBR 4207, DSM 11002"
+Ga0213501_10001252	2505286135	2505119043	63.38	"Bacteria;Synergistetes;Synergistia;Synergistales;Synergistaceae;Thermovirga;Thermovirga lienii;Thermovirga lienii Cas60314, DSM 17291"
+Ga0213501_10001253	2599294273	2599185146	72.73	Bacteria;Synergistetes;Synergistia;Synergistales;Synergistaceae;Acetomicrobium;Acetomicrobium thermoterrenum;Acetomicrobium thermoterrenum DSM 13490
+Ga0213501_10001261	649323009	649077316	78.68	Eukaryota;Arthropoda;Insecta;Phthiraptera;Pediculidae;Pediculus;Pediculus humanus;Pediculus humanus corporis USDA

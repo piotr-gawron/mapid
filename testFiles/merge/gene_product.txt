@@ -1,0 +1,100 @@
+Ga0213501_10000081	small subunit ribosomal protein S1	KO:K02945
+Ga0213501_10000101	glycine reductase	KO:K10670
+Ga0213501_10000151	tropomyosin-1	KO:K10373
+Ga0213501_10000181	putative ABC transport system ATP-binding protein	KO:K02003
+Ga0213501_10000241	methyl-accepting chemotaxis protein	KO:K03406
+Ga0213501_10000251	methyl-accepting chemotaxis protein	KO:K03406
+Ga0213501_10000261	polyphosphate kinase	KO:K00937
+Ga0213501_10000281	polyphosphate kinase	KO:K00937
+Ga0213501_10000361	granzyme H (cathepsin G-like 2)	KO:K09616
+Ga0213501_10000401	iron(III) transport system ATP-binding protein	KO:K02010
+Ga0213501_10000421	"endo-1,4-beta-xylanase"	KO:K01181
+Ga0213501_10000431	"endo-1,4-beta-xylanase"	KO:K01181
+Ga0213501_10000462	membrane-bound hydrogenase subunit mbhJ	KO:K18023
+Ga0213501_10000481	hypothetical protein	KO:K09163
+Ga0213501_10000491	amino-acid N-acetyltransferase	KO:K14682
+Ga0213501_10000492	amino-acid N-acetyltransferase	KO:K14682
+Ga0213501_10000592	large subunit ribosomal protein L25	KO:K02897
+Ga0213501_10000641	enoyl-CoA hydratase	KO:K07511
+Ga0213501_10000681	transcription factor 4/12	KO:K15603
+Ga0213501_10000701	glycyl-tRNA synthetase	KO:K01880
+Ga0213501_10000721	6-phosphofructokinase 1	KO:K00850
+Ga0213501_10000731	large subunit ribosomal protein L11	KO:K02867
+Ga0213501_10000732	large subunit ribosomal protein L1	KO:K02863
+Ga0213501_10000741	large subunit ribosomal protein L11	KO:K02867
+Ga0213501_10000761	RNA polymerase sigma factor for flagellar operon FliA	KO:K02405
+Ga0213501_10000763	flagellar biosynthesis protein FlhG	KO:K04562
+Ga0213501_10000764	flagellar biosynthesis protein FlhF	KO:K02404
+Ga0213501_10000771	flagellin	KO:K02406
+Ga0213501_10000831	translation initiation factor 2-alpha kinase 3	KO:K08860
+Ga0213501_10000851	"endo-1,4-beta-xylanase"	KO:K01181
+Ga0213501_10000871	"endo-1,4-beta-xylanase"	KO:K01181
+Ga0213501_10000881	"endo-1,4-beta-xylanase"	KO:K01181
+Ga0213501_10000891	"endo-1,4-beta-xylanase"	KO:K01181
+Ga0213501_10000901	"endo-1,4-beta-xylanase"	KO:K01181
+Ga0213501_10000981	ATP-dependent helicase/nuclease subunit B	KO:K16899
+Ga0213501_10000991	RpiR family carbohydrate utilization transcriptional regulator	KO:K19337
+Ga0213501_10001001	NADP-reducing hydrogenase subunit HndA	KO:K18330
+Ga0213501_10001002	NADP-reducing hydrogenase subunit HndB	KO:K17992
+Ga0213501_10001011	NADP-reducing hydrogenase subunit HndB	KO:K17992
+Ga0213501_10001021	NADP-reducing hydrogenase subunit HndB	KO:K17992
+Ga0213501_10001031	NADP-reducing hydrogenase subunit HndB	KO:K17992
+Ga0213501_10001041	poly [ADP-ribose] polymerase	KO:K10798
+Ga0213501_10001051	poly [ADP-ribose] polymerase	KO:K10798
+Ga0213501_10001052	poly [ADP-ribose] polymerase	KO:K10798
+Ga0213501_10001122	hypothetical protein	KO:K07337
+Ga0213501_10001131	hypothetical protein	KO:K07337
+Ga0213501_10001151	nucleolar complex protein 3	KO:K14834
+Ga0213501_10001201	putative aldouronate transport system substrate-binding protein	KO:K17318
+Ga0213501_10001211	putative aldouronate transport system substrate-binding protein	KO:K17318
+Ga0213501_10001221	syntaxin-binding protein 5	KO:K08518
+Ga0213501_10001231	syntaxin-binding protein 5	KO:K08518
+Ga0213501_10001241	aldehyde oxidoreductase	KO:K07469
+Ga0213501_10001251	indolepyruvate ferredoxin oxidoreductase alpha subunit	KO:K00179
+Ga0213501_10001252	indolepyruvate ferredoxin oxidoreductase alpha subunit	KO:K00179
+Ga0213501_10001253	indolepyruvate ferredoxin oxidoreductase beta subunit	KO:K00180
+Ga0213501_10001261	myosin protein heavy chain	KO:K10352
+Ga0213501_10001271	6-phosphofructokinase 1	KO:K00850
+Ga0213501_10001281	T-complex protein 1 subunit beta	KO:K09494
+Ga0213501_10001302	flagellar basal-body rod protein FlgC	KO:K02388
+Ga0213501_10001371	serine/threonine kinase 17	KO:K08804
+Ga0213501_10001401	small subunit ribosomal protein S7	KO:K02992
+Ga0213501_10001421	"endo-1,4-beta-xylanase"	KO:K01181
+Ga0213501_10001431	"endo-1,4-beta-xylanase"	KO:K01181
+Ga0213501_10001441	"endo-1,4-beta-xylanase"	KO:K01181
+Ga0213501_10001451	"endo-1,4-beta-xylanase"	KO:K01181
+Ga0213501_10001461	cytochrome P450 family 4	KO:K15001
+Ga0213501_10001462	cytochrome P450 family 4	KO:K15001
+Ga0213501_10001471	flagellin	KO:K02406
+Ga0213501_10001482	flagellin	KO:K02406
+Ga0213501_10001491	"endo-1,4-beta-xylanase"	KO:K01181
+Ga0213501_10001492	"endo-1,4-beta-xylanase"	KO:K01181
+Ga0213501_10001511	alkaline phosphatase	KO:K01077
+Ga0213501_10001601	flagellin	KO:K02406
+Ga0213501_10001611	flagellin	KO:K02406
+Ga0213501_10001621	flagellin	KO:K02406
+Ga0213501_10001631	F-type H+-transporting ATPase subunit a	KO:K02108
+Ga0213501_10001632	F-type H+-transporting ATPase subunit c	KO:K02110
+Ga0213501_10001633	F-type H+-transporting ATPase subunit b	KO:K02109
+Ga0213501_10001701	putative multiple sugar transport system substrate-binding protein	KO:K10546
+Ga0213501_10001711	flagellin	KO:K02406
+Ga0213501_10001731	citrate synthase	KO:K01647
+Ga0213501_10001762	acetyl-CoA carboxylase biotin carboxylase subunit	KO:K01961
+Ga0213501_10001861	translation initiation factor IF-2	KO:K02519
+Ga0213501_10001871	translation initiation factor IF-2	KO:K02519
+Ga0213501_10001872	hypothetical protein	KO:K09764
+Ga0213501_10001881	translation initiation factor IF-2	KO:K02519
+Ga0213501_10001892	hypothetical protein	KO:K09764
+Ga0213501_10001901	flagellin	KO:K02406
+Ga0213501_10001911	flagellin	KO:K02406
+Ga0213501_10001961	flagellin	KO:K02406
+Ga0213501_10001971	flagellin	KO:K02406
+Ga0213501_10002021	flagellin	KO:K02406
+Ga0213501_10002042	putative monooxygenase	KO:K14673
+Ga0213501_10002071	cytochrome P450 family 9	KO:K15003
+Ga0213501_10002081	cytochrome P450 family 9	KO:K15003
+Ga0213501_10002082	cytochrome P450 family 9	KO:K15003
+Ga0213501_10002091	"pyruvate,orthophosphate dikinase"	KO:K01006
+Ga0213501_10002121	simple sugar transport system permease protein	KO:K02057
+Ga0213501_10002131	simple sugar transport system permease protein	KO:K02057
+Ga0213501_10002151	raffinose/stachyose/melibiose transport system substrate-binding protein	KO:K10117

@@ -1,17 +1,27 @@
 <project default="main" >
 
+    <path id="build.classpath">
+        <fileset dir="lib">
+            <include name="**/*.jar"/>
+        </fileset>
+    </path>
+
     <target name="clean">
         <delete dir="build"/>
     </target>
 
     <target name="compile">
         <mkdir dir="build/classes"/>
-        <javac srcdir="src" destdir="build/classes"/>
+        <javac destdir="build/classes">
+            <src path="src"/>
+            <classpath refid="build.classpath"/>
+        </javac>
     </target>
 
     <target name="jar" depends="compile">
         <mkdir dir="build/jar"/>
         <jar destfile="build/jar/mapid.jar" basedir="build/classes">
+            <zipgroupfileset dir="lib" includes="*.jar" excludes=""/>
 <!--            <manifest>
                 <attribute name="Main-Class" value="oata.HelloWorld"/>
             </manifest> -->
