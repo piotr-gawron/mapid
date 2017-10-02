@@ -53,4 +53,42 @@ public class Merger {
 
     return result;
   }
+
+  public DataSet mergeDuplicates(DataSet dataSet, String separator, boolean attachDuplicates) {
+
+    DataSet result = new DataSet(null);
+
+    int columnsToAdd = dataSet.getElements().iterator().next().getOther().size();
+
+    for (String id : dataSet.getIds()) {
+      List<Data> toMerge = dataSet.getElementsById(id);
+      if (!attachDuplicates) {
+        Data row = new Data();
+        for (int i = 0; i < columnsToAdd; i++) {
+          String value = "";
+          for (Data dataToMerge : toMerge) {
+            if (value.equals("")) {
+              value = dataToMerge.getOther().get(i);
+            } else {
+              value += separator + dataToMerge.getOther().get(i);
+            }
+          }
+          row.setId(toMerge.get(0).getId());
+          row.addCell(value);
+        }
+        result.addElement(row);
+      } else {
+        Data row = new Data();
+        for (Data dataToMerge : toMerge) {
+          for (int i = 0; i < columnsToAdd; i++) {
+            row.addCell(dataToMerge.getOther().get(i));
+          }
+        }
+        row.setId(toMerge.get(0).getId());
+        result.addElement(row);
+      }
+    }
+
+    return result;
+  }
 }

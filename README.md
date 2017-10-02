@@ -95,3 +95,45 @@ When id that should be match is a substring you can also specify which part of t
 java -cp build/jar/mapid.jar list.mapid.Main --file1 testFiles/merge/cog.txt --file2 testFiles/merge/map.txt \
      --column1 0 --column2 1 --identifier-substring1 0,17 --output out.txt
 ```
+
+# Merge identifiers in single file
+
+Type in the console:
+
+```
+java -cp build/jar/mapid.jar list.merger.Main
+```
+
+to get usage information about the tool:
+
+```
+usage: program
+ -c,--column <arg>                 which column should be used as
+                                   identifier  (starting from 0)
+ -f,--file <arg>                   file to be processed
+    --identifier-substring <arg>   definition of identifier substring used
+                                   to merge second file in the format:
+                                   begin,end. For example if our
+                                   identifier look like 'abc123.12', but
+                                   we want to use only '123.1' part we
+                                   should use '3,8'. If no value is
+                                   provided then the whole string will be
+                                   used as identifier.
+ -o,--output <arg>                 output file
+ -s,--separator <arg>              what kind od separator should be used
+                                   for merging (default '_')
+ -t,--add-columns                  instead of putting data into the same
+                                   columns merging will create additional
+                                   columns
+```
+
+Here is an example that merges data in a single file:  
+```
+java -cp build/jar/mapid.jar list.merger.Main --file testFiles/merge/cog.txt --column 0 --output out.txt
+```
+
+
+If you want to have merged rows in separate columns run this:  
+```
+java -cp build/jar/mapid.jar list.merger.Main -t --file testFiles/merge/cog.txt --column 0 --output out.txt
+```

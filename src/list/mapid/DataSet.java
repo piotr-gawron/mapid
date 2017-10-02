@@ -1,9 +1,6 @@
 package list.mapid;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class DataSet {
   private List<Data> elements = new ArrayList<>();
@@ -56,5 +53,9 @@ public class DataSet {
 
   public List<Data> getElementsById(String id) {
     return elementById.get(id);
+  }
+
+  public Collection<String> getIds() {
+    return elementById.keySet();
   }
 }
