@@ -22,9 +22,6 @@
         <mkdir dir="build/jar"/>
         <jar destfile="build/jar/mapid.jar" basedir="build/classes">
             <zipgroupfileset dir="lib" includes="*.jar" excludes=""/>
-<!--            <manifest>
-                <attribute name="Main-Class" value="oata.HelloWorld"/>
-            </manifest> -->
         </jar>
     </target>
 

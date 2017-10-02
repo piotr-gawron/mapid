@@ -14,8 +14,6 @@ public class Main {
 	private static final String		TAXONOMY_FILE		 = "taxonomy.txt";
 	private static final String		IDS_MAPPING_FILE = "ids.txt";
 
-	// private static final String WORK_DIRECTORY =
-	// "C:/Users/piotr.gawron/Desktop/tmp/martyna/2017-06-01/deplecja/";
 	private static final String		WORK_DIRECTORY	 = "C:/Users/piotr.gawron/Desktop/tmp/martyna/2017-06-01/dissectionWGLF/";
 	private static final String[]	FILES_TO_ANALYZE = new String[] { "input.txt" };
 
